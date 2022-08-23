@@ -46,8 +46,8 @@ section{
 .btn{
        text-decoration: none;
        list-style: none;
-        background-image: linear-gradient(rgb(228, 0, 0), tomato);
-        padding: 15px 35px;
+        background-image: linear-gradient(orange, rgb(225, 80, 54));
+        padding: 10px 20px;
         border-radius: 5px;
         color: white;
         font-weight: 700;
@@ -160,16 +160,12 @@ section{
         margin-bottom: 40px;
 }
 
-/* ---Donate Plan Section */
+
 .donate-plan-container{
     display: flex;
     justify-content: space-evenly;
     padding: 20px ;
-    /* flex-wrap:nowrap; */
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px; */
+    margin-bottom: 40px;
 }
 .title{
     font-weight: 600;
@@ -180,11 +176,6 @@ section{
     margin-bottom: 16px;
 }
 .icon1{
-   
-        /* padding: 40px;
-        font-size: 13px;
-        font-weight: 300;
-        border-radius: 10px; */
     padding: 20px;
     width: 360px;
     height: 352px;
@@ -234,4 +225,65 @@ section{
     margin-right: 24px;
     border: 1px solid bisque;
     box-shadow: 10px 15px 20px pink;
+}
+
+/* ---Donation Plan section end */
+
+/* -----You can help section start */
+.volunteer-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 30px;
+}
+
+.right-side-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.right-side-content{
+    width: 500px;
+    height: 500px;
+}
+.help-content{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-side-content{
+    width: 500px;
+}
+.left-side-content h1{
+    font-size: 40px;
+    color: black;
+    line-height: 50px;
+    margin: 0px 0px 10px 0;
+}
+.left-side-content p{
+    color: gray;
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+/* -----get my update section */
+.update-description h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color:#121212;
+    margin-bottom: 15px;
+}
+.update-description p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 40px;
 }
