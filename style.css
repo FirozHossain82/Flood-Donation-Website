@@ -287,3 +287,53 @@ section{
     color: #707070;
     margin-bottom: 40px;
 }
+
+
+ form{
+    background-color: #FFF4D6;
+    width: 900px;
+    height: 300px;
+    /* padding-top: 90px; */
+    margin-left: 500px;  
+    
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #D9D9D9;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+
+
+
+
+/* -----Footer Section */
+footer{
+    text-align: center;
+    background-color: #121212;
+    height: 180px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+footer h1{
+    color: #FF5959;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D9DBE1;
+    padding-top: 20px;
+}
